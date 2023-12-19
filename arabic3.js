@@ -8,6 +8,8 @@ let arabicMedialForms = ["ـا","ـبـ", "ـتـ", "ـثـ", "ـجـ", "ـحـ"
 
 let arabicFinalForms = ["ـا", "ـب", "ـت", "ـث", "ـج", "ـح", "ـخ", "ـد", "ـذ", "ـر", "ـز", "ـس", "ـش", "ـص", "ـض", "ـط", "ـظ", "ـع", "ـغ", "ـف", "ـق", "ـك", "ـل", "ـم", "ـن", "ـه", "ـو", "ـي"];
 
+document.getElementById("correct").innerHTML = "Press next to begin";
+
 console.log(arabicAlphabet.length, arabicIndividualForms.length, arabicInitialForms.length, arabicMedialForms.length, arabicFinalForms.length);
 console.log(arabicAlphabet)
   
